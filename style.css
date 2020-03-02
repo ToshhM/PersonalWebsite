@@ -90,4 +90,14 @@ header{
     {
         display: none;
     }
+    nav.active{
+        display: none;
+        width: 100%;
+    }
+    nav.active ul
+    {
+        display: block;
+    }
+
+    
 }
