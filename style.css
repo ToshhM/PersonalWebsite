@@ -2,6 +2,56 @@ body{
 font-family: 'Poppins,' sans-serif;
 margin:0;
 padding: 0;
-background: url(background.jpg);
-background-attachment: fixed;
+
+}
+header{
+    position: relative;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #FFFFff;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow:0 2px 5px rgba(0,0,0);
+   
+}
+.logo
+{
+    color: #069370;
+    height: 50px;
+    font-size:36px;
+    line-height: 60px;
+    background: #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    float: left;
+    font-weight: 700;
+    text-decoration: none;
+}
+nav{
+    float: right;
+}
+nav ul{
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a {
+    display: block;
+    margin:10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color:#262626;
+}
+nav ul li a.active,
+nav ul li :hover
+{
+background: #069370;
+color:#FFF;
+transition: 0.5s;
+}
+.clearfix{
+    clear: both;
 }
