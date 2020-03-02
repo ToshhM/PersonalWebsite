@@ -55,3 +55,39 @@ transition: 0.5s;
 .clearfix{
     clear: both;
 }
+@media (max-width:1200px){
+header{
+    margin:20px;
+      }
+}
+@media(max-width:768px)
+{
+    .menu-toggle
+    {
+        display: block;
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+        background: #ccc;
+        float: right;
+        cursor: pointer;
+        text-align: center;
+        font-size: 30px;
+        color: #069370;
+    }
+    .menu-toggle:before
+    {
+        content:'\f0c9'; 
+        font-family: fontAwesome;
+        line-height: 40px;
+    }
+    .menu-toggle.active:before
+    {
+        content:'\f00d'; 
+    
+    }
+    nav
+    {
+        display: none;
+    }
+}
